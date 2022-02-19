@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>landing page</title>
+        <style>
+         p{
+             color: black;
+             font-size: 45px;
+             text-align: center;
+         }   
+        body {
+        background-image: url('bg2.jpg');
+        background-repeat: no-repeat;
+		 background-size: cover;
+         }
+       
+         center{
+             color:black;
+            }
+            ul{
+                 list-style-type: none;
+                font-size: 26px;
+                 margin: 1px;
+                padding: 0;
+                 overflow: hidden;
+
+                }
+             li {
+                 display: inline;
+                 float: right;
+                }
+                li a{
+                     display: block;
+                    color: black;
+                    text-align: center;
+                    padding: 14px;
+                 }
+                 li a:hover {
+                     background-color:#8FBC8F;
+                             
+                    }          
+        </style>
+    </head>
+    <body> 
+        <img src="sparkslogo.jfif" width="8%" height="8%">
+            <ul>
+                <li><a href="about.html">About Page</a></li>
+                <li><a href="transndhistory.html">Transaction History</a></li>
+                <li><a href="viewcustomer.html">View Customer</a></li> 
+            </ul>
+            <p>
+                <b>Welcome to Sparks Bank</b>
+            </p>
+            <p>
+                Helping you save,helping you grow
+            </p>
+            <p>Banking is Necessary, Banks are Not</p>
+			<p>World needs banking,doesn't needs bank</p>
+			<p> The modern banking system manufactures,money out of nothing</p>
+            <center>
+                <h5>
+                    <h3 class="info"><b>2022 © Sumitha</b></h3>
+                  <b>The Sparks Foundation</b>  
+                    <br />
+                   <b> All rights reserved</b>
+                </h5>
+            </center>
+    </body>
+</html>
